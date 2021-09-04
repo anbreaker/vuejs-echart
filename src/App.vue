@@ -1,20 +1,25 @@
 <template>
   <div id="app">
-    <Rosco />
+    <Pie />
   </div>
 </template>
 
 <script>
-  import Rosco from './components/Rosco.vue';
+  import Pie from './components/Pie.vue';
 
   export default {
+    name: 'App',
+
     components: {
-      Rosco,
+      Pie,
     },
   };
 </script>
 
 <style>
+  body {
+    background-color: #100c2a;
+  }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
